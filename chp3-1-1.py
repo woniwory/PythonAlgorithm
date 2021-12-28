@@ -1,10 +1,12 @@
-n = int(input())
-tmp = 0
+n, m, k = map(int, input().split())
+data = list(map(int, input().split()))
 res = 0
 
-type = [500, 100,50,10]
-for i in type:
-    res += n // i
-    n = n % i
+data = sorted(data, reverse = True)
+res =  data[0] * k * (m // k) + data[1] * (m % k)
 
 print(res)
+
+
+#sort와  sorted의 차이
+#얕은 복사와 깊은 복사
