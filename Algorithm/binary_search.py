@@ -1,7 +1,7 @@
 #binary_search 2022_08_23
 
 graph = [1,2,3,4,5,6,7,8,9,10]
-target = 3
+target = 3 # graph의 인덱스가 3인 원소(= 4)를 탐색하겠다
 
 def binary_search(start, end, graph, target):
   mid = end // 2 
