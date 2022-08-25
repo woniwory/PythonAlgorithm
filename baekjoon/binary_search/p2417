@@ -1,0 +1,16 @@
+n = int(input())
+
+start = 0
+mid = 0
+end = n
+
+while start <= end:
+    mid = (start+end) // 2
+    
+    if mid * mid <= n:
+        start = mid + 1
+
+    else:
+        end = mid - 1
+
+print(mid)
