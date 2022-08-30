@@ -3,7 +3,7 @@ tree_list = sorted(list(map(int, input().split())))
 
 
 start = 0
-end = len(tree_list)-1 # 3
+end = len(tree_list)-1 
 h = 0
 
 while start < end:
