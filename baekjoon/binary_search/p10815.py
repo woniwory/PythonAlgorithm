@@ -3,26 +3,28 @@ ncard = sorted(list(map(int, input().split())))
 #print(ncard)
 
 m = int(input())
-mcard = sorted(list(map(int, input().split())))
+mcard = list(map(int, input().split()))
 #print(mcard)
 
-start = 0
-end = m
-mid = 0
 
-def binary_search(start, end, graph, target):
+
+
+for i in range(m):
     status = 0
-    if target < mid:
-        end = mid - 1
-    elif target > mid:
-        start = mid + 1
-    else:
-        status = 1
+    start = 0
+    end = n-1
+    while start <= end:
         
-    if status == 1:
-        print(mid, end = ' ')
+        mid = (start + end) // 2
         
-        
-for m data in mcard:
-  print(mdata)
-  binary_search(start, end, macrd, mdata)
+        if mcard[i] > ncard[mid]:
+            start = mid + 1
+
+        elif  mcard[i] < ncard[mid]:
+            end = mid - 1
+ 
+        else:
+            status = 1
+            break  
+    print(status, end = ' ')
+    
