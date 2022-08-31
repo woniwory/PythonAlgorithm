@@ -43,7 +43,7 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 
 
 
-<---
+<!--
 
 n, k = map(int, input().split())
 lan_list = []
@@ -73,4 +73,4 @@ while start <= end:
 print(end)    
 
     
-    --->
+    -->
