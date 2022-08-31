@@ -79,5 +79,110 @@ while start <= end:
         
 print(end)    
 
+
+
+
+
+
+Category 1: Basic / Simple model
+Category 2: Model from learning dataset
+Category 3: Convolutional Neural Network with real-world image dataset
+Category 4: NLP Text Classification with real-world text dataset
+Category 5: Sequence Model with real-world numeric dataset
+
+coursera : https://www.coursera.org/professional-certificates/tensorflow-in-practice?action=enroll
+
+https://www.coursera.org/specializations/deep-learning?
+
+1. Tensorflow Basics
+Core Skills
+
+Building, compiling, training, evaluating models for binary and muilti- classification
+Identifying and mitigating overfitting
+Plotting loss and accuracy
+Matching input and output shapes
+Using early stopping callbacks
+Using datasets from tensorflow datasets
+
+
+https://iyousys.tistory.com/44 텐서플로우 자격증
+https://blog.naver.com/hobbang143/221477487359 머신러닝
+https://rekt77.tistory.com/102 텐서란 무엇인가
+https://iyousys.tistory.com/29 텐서플로우 첫 모델(화씨, 섭씨)
+1. 텐서란 무엇인가
+수학적인 개념, 데이터의 배열 배열의 차원이 높아질수록, Rank가 높아짐,
+바보(1,0,0,0)
+정성원을 (0,1,0,0)
+안균승을 (0,0,1,0)
+이재열을 (0,0,0,1)
+
+정성원 바보 안균승 바보 이재열 바보
+[[[0,1,0,0],[1,0,0,0]],[[0,0,1,0],[1,0,0,0]],[[0,0,0,1],[1,0,0,0]]]
+
+문장은 3개
+각 문장은 2개의 단어로 구성
+단어는 4개
+
+(3,2,4) 3차원 텐서
+
+
+https://katie0809.github.io/2020/06/16/tf-study2/
+
+
+① 생략(선형 문제라 다 똑같음, 수치만 다름)
+② mnist https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/
+③ CNN
+④ sarcasm https://katie0809.github.io/2020/06/22/tf-study4/
+⑤ Time Series(강의 문제X)
+
+
+
+
+x.ndim
+
+추가적으로
+ 
+1) 나는 텐서플로우에 익숙하다 → 코세라 강의 추천
+2) 나는 텐서플로우를 잘 모르거나 기출 문제로 공부하고 싶다 → 인프런/런어데이 강의 추천
+
+접근 : 인공지능을 이해하고, 텐서플로우로 구현, 과적합을 해결함으로서 좋은 모델을 만들기
+
+2512번. 국가의 역할 중 하나는 여러 지방의 예산요청을 심사하여 국가의 예산을 분배하는 것이다. 국가예산의 총액은 미리 정해져 있어서 모든 예산요청을 배정해 주기는 어려울 수도 있다. 그래서 정해진 총액 이하에서 가능한 한 최대의 총 예산을 다음과 같은 방법으로 배정한다.
+
+모든 요청이 배정될 수 있는 경우에는 요청한 금액을 그대로 배정한다.
+모든 요청이 배정될 수 없는 경우에는 특정한 정수 상한액을 계산하여 그 이상인 예산요청에는 모두 상한액을 배정한다. 상한액 이하의 예산요청에 대해서는 요청한 금액을 그대로 배정한다. 
+예를 들어, 전체 국가예산이 485이고 4개 지방의 예산요청이 각각 120, 110, 140, 150이라고 하자. 이 경우, 상한액을 127로 잡으면, 위의 요청들에 대해서 각각 120, 110, 127, 127을 배정하고 그 합이 484로 가능한 최대가 된다. 
+
+여러 지방의 예산요청과 국가예산의 총액이 주어졌을 때, 위의 조건을 모두 만족하도록 예산을 배정하는 프로그램을 작성하시오.
+
+
+
+n = int(input())
+local_list = list(map(int, input().split()))
+nation_budget = int(input())
+
+start = 0
+end = max(local_list)
+
+    
+while start <= end:
+    
+    mid = (start + end) // 2
+    tmp = 0
+    
+    for local in local_list:
+        if local < mid:
+            tmp += local
+        else:
+            tmp += mid
+    
+    if tmp < nation_budget:
+        start = mid + 1
+    
+    else:
+        end = mid - 1 
+        
+print(end)    
+
     
     -->
