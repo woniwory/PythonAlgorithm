@@ -29,7 +29,11 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 어떻게 **'결정문제(Decision : 예-아니오)'** 로 풀어나갈 수 있을까 ?
 
 
+<br>
+
 |          순번          |        정답 여부         |        문제 번호 / 이름         |         난이도          |        풀이 링크         |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1789" target="_blank">1789 / 수들의 합</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="baekjoon/binary_search/p1789.py">바로가기</a> |
-
+| 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1789" target="_blank">1789 / 수들의 합</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="./p1789.py">바로가기</a> |
+| 01 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2417" target="_blank">2417 / 정수 제곱근</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="./2417.py">바로가기</a> |
+| 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10815" target="_blank">10815 / 숫자 카드</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | <a href="baekjoon/binary_search/p10815.py">바로가기</a> |
+| 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2805" target="_blank">2805 / 나무 자르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | <a href="baekjoon/binary_search/p2805.py">바로가기</a> |
