@@ -31,5 +31,4 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 
 |          순번          |        정답 여부         |        문제 번호 / 이름         |         난이도          |        풀이 링크         |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-
 | 00 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1789" target="_blank">1789 / 수들의 합</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | <a href="baekjoon/binary_search/p1789.py">바로가기</a> |
