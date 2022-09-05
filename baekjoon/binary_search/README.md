@@ -38,6 +38,8 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 | 02 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/10815" target="_blank">10815 / 숫자 카드</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | 
 | 03 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2805" target="_blank">2805 / 나무 자르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 04 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1654" target="_blank">1654 / 랜선 자르기</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> | 
+| 05 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2512" target="_blank">2512 / 예산</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
+
 
 
 
@@ -54,7 +56,6 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 
 n, k = map(int, input().split())
 lan_list = []
-
 for _ in range(n):
     lan_list.append(int(input()))
     
