@@ -22,3 +22,4 @@ for testcase in range(t):
 for testcase in range(t):
     print(answer[testcase])
 
+#아니 ㄹㅇ 뭐함?
