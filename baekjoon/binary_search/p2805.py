@@ -1,7 +1,10 @@
-n, m = map(int, input().split())
-tree_list = sorted(list(map(int, input().split())))
+import sys
 
-start = 0
+
+n, m = map(int, input().split())
+tree_list = sorted(list(map(int,sys.stdin.readline().split())))
+
+start = 1
 end = max(tree_list)
 answer = 0
 
