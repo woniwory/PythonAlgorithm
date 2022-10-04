@@ -109,13 +109,6 @@ https://iyousys.tistory.com/29 텐서플로우 첫 모델(화씨, 섭씨)
 https://katie0809.github.io/2020/06/16/tf-study2/
 
 
-① 생략(선형 문제라 다 똑같음, 수치만 다름)
-② mnist https://tensorflowkorea.gitbooks.io/tensorflow-kr/content/g3doc/tutorials/mnist/beginners/
-③ CNN
-④ sarcasm https://katie0809.github.io/2020/06/22/tf-study4/
-⑤ Time Series(강의 문제X)
-
-
 
 시간복잡도, 빅오표기법 구현
     
