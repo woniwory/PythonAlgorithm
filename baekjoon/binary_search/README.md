@@ -18,7 +18,10 @@ _( 그렇기 때문에 꼭 1부터 10까지의 리스트는 정렬되어 있어�
 
 
 ### 🔍 Implementation
-재귀함수, while문 (start <= end)
+while문(start <= end)으로 주로 구현한다. (재귀함수로도 구현 가능) <br><br>
+또한 mid 값을 이용해 start와 end값을 조정하여 탐색을 계속 수행한다. <br><br>
+이 때 어떤 원소를 리스트에서 '탐색'을 해야하는 경우는, mid를 ((start + end) // 2) **인덱스**로 사용하고, <br><br>
+값을 '결정'을 해야하는 경우는 mid 값을 직접 이용해 start와 end값을 조정한다. <br><br>
 
 
 ### 🔍 Strategy : Parametric Search
