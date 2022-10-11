@@ -14,7 +14,7 @@ for testcase in range(t):
     while start <= end:
         mid = (start + end) // 2
         for i in mlist:
-            if nlist[mid] > i:
+            if nlist[mid] < i:
                 start = mid + 1
                 answer[testcase] += 1
             else:
