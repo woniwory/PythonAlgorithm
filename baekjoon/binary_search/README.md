@@ -62,7 +62,7 @@ while문(start <= end)으로 주로 구현한다. (재귀함수로도 구현 가
 | 07 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/2512" target="_blank">2512 / 예산</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 08 |    | <a href="https://www.acmicpc.net/problem/7795" target="_blank">7795 / 먹을 것인가 먹힐 것인가</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
 | 09 |  :heavy_check_mark:  | <a href="https://www.acmicpc.net/problem/1072" target="_blank">1072 / 게임</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/8.svg"/> |
-
+| 10 |    | <a href="https://www.acmicpc.net/problem/1072" target="_blank">3079 / 입국심사</a> | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |
 
 
 
