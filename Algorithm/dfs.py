@@ -3,7 +3,7 @@
 def dfs(visited, v, graph):
   visited[v] = True
   for i in graph[v]:
-    if visited[v] == False:
+    if visited[i] == False:
       dfs(visited, i, graph)
   
 visited = [False] * 9  
